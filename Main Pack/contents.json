@@ -1,0 +1,64 @@
+{
+    "content": [
+        {
+            "path": "lighting/global.json"
+        },
+        {
+            "path": "shadows/global.json"
+        },
+        {
+            "path": "water/water.json"
+        },
+        {
+            "path": "textures/blocks/water_flow.png"
+        },
+        {
+            "path": "textures/blocks/water_flow.texture_set.json"
+        },
+        {
+            "path": "textures/blocks/water_flow_grey.png"
+        },
+        {
+            "path": "textures/blocks/water_flow_grey.texture_set.json"
+        },
+        {
+            "path": "textures/blocks/water_flow_grey_mers.tga"
+        },
+        {
+            "path": "textures/blocks/water_flow_grey_normal.png"
+        },
+        {
+            "path": "textures/blocks/water_flow_mers.tga"
+        },
+        {
+            "path": "textures/blocks/water_placeholder.png"
+        },
+        {
+            "path": "textures/blocks/water_placeholder.texture_set.json"
+        },
+        {
+            "path": "textures/blocks/water_placeholder_mers.tga"
+        },
+        {
+            "path": "textures/blocks/water_still.png"
+        },
+        {
+            "path": "textures/blocks/water_still.texture_set.json"
+        },
+        {
+            "path": "textures/blocks/water_still_grey.png"
+        },
+        {
+            "path": "textures/blocks/water_still_grey.texture_set.json"
+        },
+        {
+            "path": "textures/blocks/water_still_grey_mers.tga"
+        },
+        {
+            "path": "textures/blocks/water_still_grey_normal.png"
+        },
+        {
+            "path": "textures/blocks/water_still_mers.tga"
+        }
+    ]
+}
