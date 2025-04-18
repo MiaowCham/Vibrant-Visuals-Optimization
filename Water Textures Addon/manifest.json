@@ -1,0 +1,21 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "§r§c§l请开启“Vibrant Visuals”实验性选项再启用本包     §r§fr添加了Vibrant Visuals原版水面纹理和法线PBR，用于补充没有水面材质的资源包      §r§e请将本包置顶！",
+    "name": "水面纹理拓展包",
+    "uuid": "74e874f4-76d7-40c5-a3b8-cd16f32000be",
+    "version": [ 0, 0, 1 ],
+    "min_engine_version": [ 1, 20, 20 ]
+  },
+  "modules": [
+    {
+      "description": "§r§c§l请开启“Vibrant Visuals”实验性选项再启用本包     §r§fr添加了Vibrant Visuals原版水面纹理和法线PBR，用于补充没有水面材质的资源包      §r§e请将本包置顶！",
+      "type": "resources",
+      "uuid": "60a2cbc4-ad54-45a7-a674-542869c23880",
+      "version": [ 0, 0, 1 ]
+    }
+  ],
+  "capabilities": [
+    "pbr"
+  ]
+}
