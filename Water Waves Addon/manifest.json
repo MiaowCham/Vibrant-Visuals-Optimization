@@ -1,0 +1,21 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "§r§c§l请开启“Vibrant Visuals”实验性选项再启用本包     §r§f启用了被关闭的水面波浪     §r§e无法与水底焦散关闭包同时使用",
+    "name": "水面波浪拓展包",
+    "uuid": "ffe8dee7-1971-4c97-b5ef-3bfa582e031d",
+    "version": [ 0, 0, 1 ],
+    "min_engine_version": [ 1, 20, 20 ]
+  },
+  "modules": [
+    {
+      "description": "§r§c§l请开启“Vibrant Visuals”实验性选项再启用本包     §r§f启用了被关闭的水面波浪     §r§e无法与水底焦散关闭包同时使用",
+      "type": "resources",
+      "uuid": "c8a11892-41ac-4722-9371-29942417b58d",
+      "version": [ 0, 0, 1 ]
+    }
+  ],
+  "capabilities": [
+    "pbr"
+  ]
+}
