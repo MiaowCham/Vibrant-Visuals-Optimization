@@ -21,23 +21,22 @@ jobs:
 
     - name: Compress folders
       run: |
-        mkdir -p output
         IFS=$'\n' # 设置换行符为分隔符，避免空格问题
         for dir in $(find . -mindepth 1 -maxdepth 1 -type d); do
           folder_name=$(basename "$dir")
           if [ -d "$dir" ]; then
             # 进入文件夹并压缩其内容
-            (cd "$dir" && zip -r "../output/${folder_name}.mcpack" .)
+            (cd "$dir" && zip -r "../${folder_name}.mcpack" .)
           else
             echo "Skipping non-existent or invalid folder: $dir"
           fi
         done
 
     - name: List output directory contents
-      run: ls -al output/
+      run: ls -al
 
     - name: Upload MCPACK files
       uses: actions/upload-artifact@v4
       with:
         name: mcpack-files
-        path: output/
+        path: "*.mcpack"
