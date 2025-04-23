@@ -2,7 +2,7 @@
   "format_version": 2,
   "header": {
     "description": "§r§fr添加了Vibrant Visuals原版水面纹理和法线PBR，用于补充没有水面材质的资源包 Added Vibrant Visuals vanilla water textures and PBR textures      §r§e请将本包置顶！ Place this pack at the top!",
-    "name": "水面纹理拓展包",
+    "name": "水面纹理拓展包 Water Textures Addon",
     "uuid": "74e874f4-76d7-40c5-a3b8-cd16f32000be",
     "version": [ 1, 0, 1 ],
     "min_engine_version": [ 1, 20, 20 ]

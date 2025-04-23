@@ -2,7 +2,7 @@
   "format_version": 2,
   "header": {
     "description": "§r§f启用了水面波浪，并关闭了水底焦散 Disabled the Water Caustics and Enabled The Water Waves",
-    "name": "干净水体拓展包",
+    "name": "干净水体拓展包 Clear Water Addon",
     "uuid": "a2fa5013-6baa-4a8b-9464-9d3c1219c489",
     "version": [ 1, 0, 1 ],
     "min_engine_version": [ 1, 20, 20 ]

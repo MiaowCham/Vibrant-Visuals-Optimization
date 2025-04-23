@@ -2,7 +2,7 @@
   "format_version": 2,
   "header": {
     "description": "§r§f将阴影类型修改为“软阴影” Change the shadow style to 'Soft Shadows'     §r§e不保证一定生效！ Not guaranteed to be effective!",
-    "name": "高清阴影附加包",
+    "name": "高清阴影附加包 Soft Shadows Addon",
     "uuid": "4516c72b-65f9-471d-bcc4-66b760253f8a",
     "version": [ 1, 0, 1 ],
     "min_engine_version": [ 1, 20, 20 ]
