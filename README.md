@@ -26,7 +26,7 @@ Enabling "Render Dragon Feature for Creaters" to Enable all features!
 - Slightly increased natural light brightness to enhance visibility underwater/underground
 - Upgraded vanilla 16x shadow resolution to 32x
 - Reduced chlorophyll value to avoid the vanilla "nuclear wastewater" effect underwater
-- **该资源包需要置底**
+- **The resource plan needs to be set to the bottom**
 ### Addon Packs
 |#|Name|Introduce|
 |-|-|-|
