@@ -1,18 +1,18 @@
 {
   "format_version": 2,
   "header": {
-    "description": "§r§c§l请开启“Vibrant Visuals”实验性选项再启用本包     §r§f大幅提升了无光源处亮度",
-    "name": "暗处增强拓展包",
+    "description": "§r§f大幅提升了无光源处亮度 Increased ambient illuminance",
+    "name": "暗处增强拓展包 Lighting Enhancement Addon",
     "uuid": "a87e0c74-c3b3-4890-b5d5-df608a8ab533",
-    "version": [ 0, 0, 1 ],
+    "version": [ 1, 0, 1 ],
     "min_engine_version": [ 1, 20, 20 ]
   },
   "modules": [
     {
-      "description": "§r§c§l请开启“Vibrant Visuals”实验性选项再启用本包     §r§f大幅提升了无光源处亮度",
+      "description": "§r§f大幅提升了无光源处亮度 Increased ambient illuminance",
       "type": "resources",
       "uuid": "8867052a-daf8-4640-9d25-bd2ec4eaffa5",
-      "version": [ 0, 0, 1 ]
+      "version": [ 1, 0, 1 ]
     }
   ],
   "capabilities": [

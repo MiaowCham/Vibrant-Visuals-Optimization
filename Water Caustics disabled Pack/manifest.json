@@ -1,0 +1,21 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "§r§f关闭了水底焦散效果 Disabled the Water Caustics     §r§e无法与水面波浪拓展包同时使用 Incompatible with Water Waves Addon",
+    "name": "水底焦散关闭包 Water Caustics disabled Pack",
+    "uuid": "86106565-ff47-4e0d-8e56-88c2e166c2f7",
+    "version": [ 1, 0, 1 ],
+    "min_engine_version": [ 1, 20, 20 ]
+  },
+  "modules": [
+    {
+      "description": "§r§f关闭了水底焦散效果 Disabled the Water Caustics     §r§e无法与水面波浪拓展包同时使用 Incompatible with Water Waves Addon",
+      "type": "resources",
+      "uuid": "119ce596-3937-4bbe-8c8c-b218f5a591ce",
+      "version": [ 1, 0, 1 ]
+    }
+  ],
+  "capabilities": [
+    "pbr"
+  ]
+}

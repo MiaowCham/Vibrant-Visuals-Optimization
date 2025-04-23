@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:water_settings": {
+    "description": {
+      "identifier": "minecraft:default_water"
+    },
+    "particle_concentrations": {
+      "chlorophyll": 0.012,
+      "suspended_sediment": 0,
+      "cdom": 0
+    },
+    "caustics": {
+      "enabled": false,
+      "frame_length": 0.05,
+      "scale": 0.5,
+      "power": 2
+    }
+  }
+}

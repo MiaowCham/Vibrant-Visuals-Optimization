@@ -1,18 +1,18 @@
 {
   "format_version": 2,
   "header": {
-    "description": "§r§c§l请开启“Vibrant Visuals”实验性选项再启用本包     §r§f将阴影分辨率恢复到16x",
-    "name": "16x阴影恢复包",
+    "description": "§r§f将阴影分辨率恢复到16x Restore shadow resolution to 16x",
+    "name": "16x阴影恢复包 16x Shadows Recover Pack",
     "uuid": "30973053-3f1b-43a3-ac59-242290c24613",
-    "version": [ 0, 0, 1 ],
+    "version": [ 1, 0, 1 ],
     "min_engine_version": [ 1, 20, 20 ]
   },
   "modules": [
     {
-      "description": "§r§c§l请开启“Vibrant Visuals”实验性选项再启用本包     §r§f将阴影分辨率恢复到16x",
+      "description": "§r§f将阴影分辨率恢复到16x Restore shadow resolution to 16x",
       "type": "resources",
       "uuid": "71a6aab2-1b44-4127-ab56-dc2b249301c2",
-      "version": [ 0, 0, 1 ]
+      "version": [ 1, 0, 1 ]
     }
   ],
   "capabilities": [

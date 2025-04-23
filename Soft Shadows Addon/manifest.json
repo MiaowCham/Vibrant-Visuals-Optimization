@@ -1,7 +1,7 @@
 {
   "format_version": 2,
   "header": {
-    "description": "§r§c§l请开启“Vibrant Visuals”实验性选项再启用本包     §r§f试图将阴影分辨率从16提升到512并取消像素阴影     §r§e不保证一定生效！",
+    "description": "§r§f将阴影类型修改为“软阴影” Change the shadow style to 'Soft Shadows'     §r§e不保证一定生效！ Not guaranteed to be effective!",
     "name": "高清阴影附加包",
     "uuid": "4516c72b-65f9-471d-bcc4-66b760253f8a",
     "version": [ 1, 0, 1 ],
@@ -9,7 +9,7 @@
   },
   "modules": [
     {
-      "description": "§r§c§l请开启“Vibrant Visuals”实验性选项再启用本包     §r§f试图将阴影分辨率从16提升到512并取消像素阴影     §r§e不保证一定生效！",
+      "description": "§r§f将阴影类型修改为“软阴影” Change the shadow style to 'Soft Shadows'     §r§e不保证一定生效！ Not guaranteed to be effective!",
       "type": "resources",
       "uuid": "a0937f02-fb18-4a14-9276-dd05d6145195",
       "version": [ 1, 0, 1 ]

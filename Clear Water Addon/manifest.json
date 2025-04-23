@@ -1,18 +1,18 @@
 {
   "format_version": 2,
   "header": {
-    "description": "§r§c§l请开启“Vibrant Visuals”实验性选项再启用本包     §r§f启用了水面波浪，并关闭了水底焦散",
+    "description": "§r§f启用了水面波浪，并关闭了水底焦散 Disabled the Water Caustics and Enabled The Water Waves",
     "name": "干净水体拓展包",
     "uuid": "a2fa5013-6baa-4a8b-9464-9d3c1219c489",
-    "version": [ 0, 0, 1 ],
+    "version": [ 1, 0, 1 ],
     "min_engine_version": [ 1, 20, 20 ]
   },
   "modules": [
     {
-      "description": "§r§c§l请开启“Vibrant Visuals”实验性选项再启用本包     §r§f启用了水面波浪，并关闭了水底焦散",
+      "description": "§r§f启用了水面波浪，并关闭了水底焦散 Disabled the Water Caustics and Enabled The Water Waves",
       "type": "resources",
       "uuid": "b03a17b4-5f98-465c-a324-79db039be14f",
-      "version": [ 0, 0, 1 ]
+      "version": [ 1, 0, 1 ]
     }
   ],
   "capabilities": [

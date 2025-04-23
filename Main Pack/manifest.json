@@ -1,18 +1,18 @@
 {
   "format_version": 2,
   "header": {
-    "description": "§r§c§l请开启“Vibrant Visuals”实验性选项再启用本包     §r§f将阴影分辨率从16提升到32，提升无光源处亮度，给大量光源添加了点光源，且去除了核废水似的绿色水下效果     §r§e请将本包置底！",
-    "name": "灵动视效优化包",
+    "description": "§r§f建议开启“为创建者提供的渲染龙功能”以启用全部特性！ Enabling \"Render Dragon Feature for Creaters\" to Enable all features!     §r§e请将本包置底！ Please place this pack at the bottom!",
+    "name": "灵动视效优化包 Vibrant Visuals Optimization",
     "uuid": "9889ec88-c536-4b3a-a394-692a1c2ebd98",
-    "version": [ 0, 0, 1 ],
+    "version": [ 1, 0, 1 ],
     "min_engine_version": [ 1, 20, 20 ]
   },
   "modules": [
     {
-      "description": "§r§c§l请开启“Vibrant Visuals”实验性选项再启用本包     §r§f将阴影分辨率从16提升到32，提升无光源处亮度，给大量光源添加了点光源，且去除了核废水似的绿色水下效果     §r§e请将本包置底！",
+      "description": "§r§f建议开启“为创建者提供的渲染龙功能”以启用全部特性！ Enabling \"Render Dragon Feature for Creaters\" to Enable all features!     §r§e请将本包置底！ Please place this pack at the bottom!",
       "type": "resources",
       "uuid": "96eac11f-52bb-4e97-bb64-325b4805b0d2",
-      "version": [ 0, 0, 1 ]
+      "version": [ 1, 0, 1 ]
     }
   ],
   "capabilities": [
