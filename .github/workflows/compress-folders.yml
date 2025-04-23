@@ -22,6 +22,7 @@ jobs:
     - name: Compress folders
       run: |
         mkdir -p output
+        IFS=$'\n' # 设置换行符为分隔符，避免空格问题
         for dir in $(find . -mindepth 1 -maxdepth 1 -type d); do
           folder_name=$(basename "$dir")
           if [ -d "$dir" ]; then
