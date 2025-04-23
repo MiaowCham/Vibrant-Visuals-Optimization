@@ -1,10 +1,7 @@
 name: Compress Folders to MCPACK
 
 on:
-  push:
-    branches:
-      - main
-  workflow_dispatch:
+  workflow_dispatch: # 保留手动触发
 
 jobs:
   compress:
