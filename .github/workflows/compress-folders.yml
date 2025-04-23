@@ -31,7 +31,7 @@ jobs:
       run: ls -al output/
 
     - name: Upload MCPACK files
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v2
       with:
         name: mcpack-files
         path: output/
