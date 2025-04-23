@@ -24,7 +24,11 @@ jobs:
         mkdir -p output
         for dir in $(find . -mindepth 1 -maxdepth 1 -type d); do
           folder_name=$(basename "$dir")
-          zip -r "output/${folder_name}.mcpack" "$dir"
+          if [ -d "$dir" ]; then
+            zip -r "output/${folder_name}.mcpack" "$dir"
+          else
+            echo "Skipping non-existent or invalid folder: $dir"
+          fi
         done
 
     - name: List output directory contents
