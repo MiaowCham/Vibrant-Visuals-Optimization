@@ -26,7 +26,8 @@ jobs:
         for dir in $(find . -mindepth 1 -maxdepth 1 -type d); do
           folder_name=$(basename "$dir")
           if [ -d "$dir" ]; then
-            zip -r "output/${folder_name}.mcpack" "$dir"
+            # 进入文件夹并压缩其内容
+            (cd "$dir" && zip -r "../output/${folder_name}.mcpack" .)
           else
             echo "Skipping non-existent or invalid folder: $dir"
           fi
