@@ -39,8 +39,8 @@ Enabling "Render Dragon Feature for Creaters" to Enable all features!
 7|Water Waves Addon|启用了被关闭的水面波浪<br>启用后水面纹理会变淡<br>**无法与水底焦散关闭包同时使用**|
 
 ## How To Use?
-请先前往 [Actions](Vibrant-Visuals-Optimization/actions) 下载构建版，
-或者前往 [Releases](Vibrant-Visuals-Optimization/releases) 发行版文件
+请先前往 [Actions](https://github.com/MiaowCham/Vibrant-Visuals-Optimization/Actions) 下载构建版，
+或者前往 [Releases](https://github.com/MiaowCham/Vibrant-Visuals-Optimization/releases) 发行版文件
 
 将下载得到的 `mcpack-files.zip` 解压，将解压得到的 `.mcpack` 文件使用 Minecraft Preview/Beta 打开即可导入<br>
 - Windows
