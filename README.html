@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibrant Visuals Optimization - Minecraft BE 视觉优化包</title>
+    <style>
+        :root {
+            --primary: #2b8a3e;
+            --secondary: #5c940d;
+            --accent: #f08c00;
+            --text: #343a40;
+            --light: #f8f9fa;
+            --dark: #212529;
+            --shadow: 0 4px 6px rgba(0,0,0,0.1);
+            --radius: 6px;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background-color: var(--light);
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background-color: var(--primary);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            margin-bottom: 2rem;
+            box-shadow: var(--shadow);
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        h2 {
+            font-size: 1.8rem;
+            margin: 2rem 0 1rem;
+            color: var(--primary);
+            border-bottom: 2px solid var(--secondary);
+            padding-bottom: 0.5rem;
+        }
+        
+        h3 {
+            font-size: 1.4rem;
+            margin: 1.5rem 0 1rem;
+            color: var(--secondary);
+        }
+        
+        .hero-image {
+            max-width: 800px;
+            margin: 0 auto;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            display: block;
+        }
+        
+        .alert {
+            padding: 1rem;
+            border-radius: var(--radius);
+            margin: 1.5rem 0;
+            display: flex;
+            align-items: flex-start;
+        }
+        
+        .alert-warning {
+            background-color: #fff3bf;
+            border-left: 4px solid #f08c00;
+        }
+        
+        .alert-title {
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+        }
+        
+        .alert-title svg {
+            margin-right: 0.5rem;
+        }
+        
+        .intro {
+            text-align: center;
+            margin: 2rem 0;
+            padding: 0 1rem;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            box-shadow: var(--shadow);
+            border-radius: var(--radius);
+            overflow: hidden;
+        }
+        
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        th {
+            background-color: var(--primary);
+            color: white;
+            font-weight: bold;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        
+        tr:hover {
+            background-color: #e9ecef;
+        }
+        
+        a {
+            color: var(--primary);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        
+        a:hover {
+            color: var(--accent);
+            text-decoration: underline;
+        }
+        
+        code {
+            background-color: #e9ecef;
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+        
+        ul, ol {
+            margin: 1rem 0;
+            padding-left: 2rem;
+        }
+        
+        li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .platform-instructions {
+            background-color: white;
+            border-radius: var(--radius);
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            box-shadow: var(--shadow);
+        }
+        
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+            background-color: var(--dark);
+            color: white;
+        }
+        
+        .download-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin: 2rem 0;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            background-color: var(--primary);
+            color: white;
+            border-radius: var(--radius);
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.2s;
+            box-shadow: var(--shadow);
+        }
+        
+        .btn:hover {
+            background-color: var(--secondary);
+            transform: translateY(-2px);
+            text-decoration: none;
+        }
+        
+        .btn-secondary {
+            background-color: var(--accent);
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            h2 {
+                font-size: 1.5rem;
+            }
+            
+            .download-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .btn {
+                width: 100%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Vibrant Visuals Optimization</h1>
+            <p>Minecraft 基岩版动态视觉效果优化资源包</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <img src="https://raw.githubusercontent.com/MiaowCham/Vibrant-Visuals-Optimization/main/Main%20Pack/Sample%20image.png" alt="Vibrant Visuals Optimization 效果展示" class="hero-image">
+        
+        <div class="intro">
+            <p>为《我的世界》基岩版 灵动视效 制作的优化资源包系列，通过资源包的方式修改原版 Vibrant Visuals 阴间参数</p>
+            <p>不保证一定可用/生效，资源包修改能力有限，且 Vibrant Visuals 还处于开发阶段，一切请以 Mojang 官方为准</p>
+            <p>建议开启 `为创建者提供的渲染龙功能` 以启用全部特性！</p>
+        </div>
+        
+        <div class="download-buttons">
+            <a href="https://github.com/MiaowCham/Vibrant-Visuals-Optimization/actions" class="btn">下载最新构建版</a>
+            <a href="https://github.com/MiaowCham/Vibrant-Visuals-Optimization/releases" class="btn btn-secondary">下载稳定发行版</a>
+        </div>
+        
+        <h2>本资源包包含一个主包和多个附加包</h2>
+        
+        <h3><a href="https://github.com/MiaowCham/Vibrant-Visuals-Optimization/tree/main/Main%20Pack">主资源包 (Main Pack)</a></h3>
+        <ul>
+            <li>新增多点光源效果</li>
+            <li>略微提高自然光亮度，改善水下/地下的可见性</li>
+            <li>将原版16x阴影分辨率提升至32x</li>
+            <li>降低叶绿素值，避免水下"核废水"般的过绿效果</li>
+            <li><strong>需置于资源包加载顺序的最底层</strong></li>
+        </ul>
+        
+        <h3>附加包 (Addon Packs)</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>名称</th>
+                    <th>功能说明</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td><a href="https://github.com/MiaowCham/Vibrant-Visuals-Optimization/tree/main/16x%20Shadows%20Recover%20Pack">16x Shadows Recover Pack</a></td>
+                    <td>将阴影分辨率恢复到16x<br><strong>无法与高清阴影附加包同时使用</strong></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><a href="https://github.com/MiaowCham/Vibrant-Visuals-Optimization/tree/main/Clear%20Water%20Addon">Clear Water Addon</a></td>
+                    <td>启用水面波浪，同时关闭了水底焦散</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><a href="https://github.com/MiaowCham/Vibrant-Visuals-Optimization/tree/main/Lighting%20Enhancement%20Addon">Lighting Enhancement Addon</a></td>
+                    <td>大幅提升了无光源处亮度</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><a href="https://github.com/MiaowCham/Vibrant-Visuals-Optimization/tree/main/Soft%20Shadows%20Addon">Soft Shadows Addon</a></td>
+                    <td>将阴影类型修改为"软阴影"<br><strong>无法与16x阴影恢复包同时使用</strong></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><a href="https://github.com/MiaowCham/Vibrant-Visuals-Optimization/tree/main/Water%20Caustics%20disabled%20Pack">Water Caustics disabled Pack</a></td>
+                    <td>关闭了水底焦散效果</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td><a href="https://github.com/MiaowCham/Vibrant-Visuals-Optimization/tree/main/Water%20Textures%20Addon">Water Textures Addon</a></td>
+                    <td>添加了Vibrant Visuals原版水面纹理和法线PBR<br>用于补充没有水面材质的资源包<br><strong>该资源包需要置顶</strong></td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td><a href="https://github.com/MiaowCham/Vibrant-Visuals-Optimization/tree/main/Water%20Waves%20Addon">Water Waves Addon</a></td>
+                    <td>启用了被关闭的水面波浪<br>启用后水面纹理会变淡<br><strong>无法与水底焦散关闭包同时使用</strong></td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <h2>使用指南</h2>
+        <p>请先前往 <a href="https://github.com/MiaowCham/Vibrant-Visuals-Optimization/Actions">Actions</a> 下载构建版，或者前往 <a href="https://github.com/MiaowCham/Vibrant-Visuals-Optimization/releases">Releases</a> 下载发行版文件</p>
+        <p>将下载得到的 <code>mcpack-files.zip</code> 解压，将解压得到的 <code>.mcpack</code> 文件使用 Minecraft Preview/Beta 打开即可导入</p>
+        
+        <div class="platform-instructions">
+            <h3>Windows</h3>
+            <ul>
+                <li>右键 <code>.mcpack</code> 文件，选择使用 Minecraft Preview 打开</li>
+                <li>若点击 <code>选择其他应用</code>，在弹出的窗口选择 Minecraft Preview 并点击 <code>始终</code> 即可将 Minecraft Preview 作为默认打开方式</li>
+                <li>请确保您使用的是 Minecraft Preview 且版本号高于 <code>1.21.80.25</code></li>
+            </ul>
+        </div>
+        
+        <div class="platform-instructions">
+            <h3>Android</h3>
+            <ul>
+                <li>系统自带文件管理
+                    <ul>
+                        <li>在文件管理中找到 <code>mcpack-files.zip</code> 并解压</li>
+                        <li>点击解压得到的 <code>.mcpack</code>，选择其他类型（若没有则一般选择文本类型）</li>
+                        <li>在弹出的窗口选择 Minecraft</li>
+                        <li>点击 <code>总是</code> 等选项可将 Minecraft 设为默认打开方式</li>
+                    </ul>
+                </li>
+                <li>MT 管理器/NP 管理器（推荐）
+                    <ul>
+                        <li>在 MT/NP 管理器找到 <code>mcpack-files.zip</code> 并解压</li>
+                        <li>长按解压得到的 <code>.mcpack</code>，在弹出的菜单选择 <code>打开方式...</code></li>
+                        <li>点击左下角 <code>类型</code> 按钮，选择 <code>全部</code> 选项</li>
+                        <li>在弹出的窗口选择 Minecraft</li>
+                        <li>长按 Minecraft 可选择设为默认打开方式</li>
+                    </ul>
+                </li>
+                <li>需确保您的 Minecraft 为 Beta 版且版本号高于 <code>1.21.80.25</code></li>
+            </ul>
+        </div>
+        
+        <div class="platform-instructions">
+            <h3>Linux</h3>
+            <ul>
+                <li>Linux Bedrock Launcher 暂不支持带有 Vibrant Visuals 的版本，具体导入方法参考Windows</li>
+            </ul>
+        </div>
+        
+        <div class="platform-instructions">
+            <h3>iOS / iPadOS</h3>
+            <ul>
+                <li>暂未提供详细教程，请自行搜索相关安装方法</li>
+            </ul>
+        </div>
+        
+        <h2>许可证</h2>
+        <p>本项目采用 <a href="https://github.com/MiaowCham/Vibrant-Visuals-Optimization/blob/main/LICENSE">CC0-1.0 许可证</a></p>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>© 2025 MiaowCham | Minecraft 是 Mojang Studios 的注册商标</p>
+            <p>本项目与 Mojang Studios 无直接关联</p>
+        </div>
+    </footer>
+</body>
+</html>
