@@ -3,14 +3,14 @@
 
 # Vibrant Visuals Optimization
 
-English / [简体中文](./README-CN.md)
-
 </div>
 
 > [!WARNING]
 > English readme is still under construction!
 
 <div align=center>
+
+English / [简体中文](./README-CN.md)
 
 A Resource packs For Vibrant Visuals in Minecraft BE，Modify the unreasonable parameters in the original Vibrant Visuals through resource packs
 
