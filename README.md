@@ -21,7 +21,7 @@ Enabling "Render Dragon Feature for Creaters" to Enable all features!
 </div>
 
 ## **This resource pack consists of<br>a main pack and multiple add-on packs**
-### Main Pack
+### [Main Pack](./Main%20Pack/)
 - Added multiple point light source
 - Slightly increased natural light brightness to enhance visibility underwater/underground
 - Upgraded vanilla 16x shadow resolution to 32x
@@ -30,13 +30,13 @@ Enabling "Render Dragon Feature for Creaters" to Enable all features!
 ### Addon Packs
 |#|Name|Introduce|
 |-|-|-|
-1|16x Shadows Recover Pack|将阴影分辨率恢复到16x<br>**无法与高清阴影附加包同时使用**|
-2|Clear Water Addon|启用水面波浪，同时关闭了水底焦散|
-3|Lighting Enhancement Addon|大幅提升了无光源处亮度|
-4|Soft Shadows Addon|将阴影类型修改为“软阴影”<br>**无法与16x阴影恢复包同时使用**|
-5|Water Caustics disabled Pack|关闭了水底焦散效果|
-6|Water Textures Addon|添加了Vibrant Visuals原版水面纹理和法线PBR<br>用于补充没有水面材质的资源包<br>**该资源包需要置顶**|
-7|Water Waves Addon|启用了被关闭的水面波浪<br>启用后水面纹理会变淡<br>**无法与水底焦散关闭包同时使用**|
+1|[16x Shadows Recover Pack](./16x%20Shadows%20Recover%20Pack/)|将阴影分辨率恢复到16x<br>**无法与高清阴影附加包同时使用**|
+2|[Clear Water Addon](./Clear%20Water%20Addon/)|启用水面波浪，同时关闭了水底焦散|
+3|[Lighting Enhancement Addon](./Lighting%20Enhancement%20Addon/)|大幅提升了无光源处亮度|
+4|[Soft Shadows Addon](./Soft%20Shadows%20Addon/)|将阴影类型修改为“软阴影”<br>**无法与16x阴影恢复包同时使用**|
+5|[Water Caustics disabled Pack](./Water%20Caustics%20disabled%20Pack/)|关闭了水底焦散效果|
+6|[Water Textures Addon](./Water%20Textures%20Addon/)|添加了Vibrant Visuals原版水面纹理和法线PBR<br>用于补充没有水面材质的资源包<br>**该资源包需要置顶**|
+7|[Water Waves Addon](./Water%20Waves%20Addon/)|启用了被关闭的水面波浪<br>启用后水面纹理会变淡<br>**无法与水底焦散关闭包同时使用**|
 
 ## How To Use?
 请先前往 [Actions](https://github.com/MiaowCham/Vibrant-Visuals-Optimization/Actions) 下载构建版，
@@ -64,3 +64,6 @@ Enabling "Render Dragon Feature for Creaters" to Enable all features!
     - Linux Bedrock Launcher 暂不支持带有 Vibrant Visuals 的版本，具体导入方法参考Windows
 - iOS / iPadOS
     - 煮啵太穷了买不起 Apple，自己去搜教程吧（悲
+
+## LICENSE
+This project uses the CC0-1.0 license

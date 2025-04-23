@@ -15,7 +15,7 @@
 
 ## 本资源包分为一个主包和多个附加包
 
-### 主资源包 Main Pack
+### [主资源包 Main Pack](./Main%20Pack/)
 - 添加多种点光源
 - 轻微提高自然光亮度以提升水底/地底的亮度
 - 将原版16x阴影分辨率提升至32x
@@ -24,13 +24,13 @@
 ### 附加包 Addon Packs
 |#|名称 / 对应英文名称|简介|
 |-|-|-|
-1|16x阴影恢复包<br>16x Shadows Recover Pack|将阴影分辨率恢复到16x<br>**无法与高清阴影附加包同时使用**|
-2|干净水体拓展包<br>Clear Water Addon|启用水面波浪，同时关闭了水底焦散|
-3|暗处增强拓展包<br>Lighting Enhancement Addon|大幅提升了无光源处亮度|
-4|高清阴影附加包<br>Soft Shadows Addon|将阴影类型修改为“软阴影”<br>**无法与16x阴影恢复包同时使用**|
-5|水底焦散关闭包<br>Water Caustics disabled Pack|关闭了水底焦散效果|
-6|水面纹理拓展包<br>Water Textures Addon|添加了Vibrant Visuals原版水面纹理和法线PBR<br>用于补充没有水面材质的资源包<br>**该资源包需要置顶**|
-7|水面波浪拓展包<br>Water Waves Addon|启用了被关闭的水面波浪<br>启用后水面纹理会变淡<br>**无法与水底焦散关闭包同时使用**|
+1|[16x阴影恢复包<br>16x Shadows Recover Pack](./16x%20Shadows%20Recover%20Pack/)|将阴影分辨率恢复到16x<br>**无法与高清阴影附加包同时使用**|
+2|[干净水体拓展包<br>Clear Water Addon](./Clear%20Water%20Addon/)|启用水面波浪，同时关闭了水底焦散|
+3|[暗处增强拓展包<br>Lighting Enhancement Addon](./Lighting%20Enhancement%20Addon/)|大幅提升了无光源处亮度|
+4|[高清阴影附加包<br>Soft Shadows Addon](./Soft%20Shadows%20Addon/)|将阴影类型修改为“软阴影”<br>**无法与16x阴影恢复包同时使用**|
+5|[水底焦散关闭包<br>Water Caustics disabled Pack](./Water%20Caustics%20disabled%20Pack/)|关闭了水底焦散效果|
+6|[水面纹理拓展包<br>Water Textures Addon](./Water%20Textures%20Addon/)|添加了Vibrant Visuals原版水面纹理和法线PBR<br>用于补充没有水面材质的资源包<br>**该资源包需要置顶**|
+7|[水面波浪拓展包<br>Water Waves Addon](./Water%20Waves%20Addon/)|启用了被关闭的水面波浪<br>启用后水面纹理会变淡<br>**无法与水底焦散关闭包同时使用**|
 
 ## 如何使用?
 请先前往 [Actions](https://github.com/MiaowCham/Vibrant-Visuals-Optimization/Actions) 下载构建版，
@@ -58,3 +58,6 @@
     - Linux Bedrock Launcher 暂不支持带有 Vibrant Visuals 的版本，具体导入方法参考Windows
 - iOS/iPadOS设备
     - 煮啵太穷了买不起 Apple，自己去搜教程吧（悲
+
+## 许可证
+本项目使用 CC0-1.0 许可证
