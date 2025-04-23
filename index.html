@@ -53,7 +53,7 @@
         h2 {
             font-size: 1.8rem;
             margin: 2rem 0 1rem;
-            color: var(--primary);
+            color: #1e5631; /* 加深颜色 */
             border-bottom: 2px solid var(--secondary);
             padding-bottom: 0.5rem;
         }
@@ -61,7 +61,16 @@
         h3 {
             font-size: 1.4rem;
             margin: 1.5rem 0 1rem;
-            color: var(--secondary);
+            color: #3c763d; /* 更深的绿色 */
+        }
+
+        h3 a {
+            color: #2b8a3e; /* 修改为更亮的绿色 */
+            text-decoration: none; /* 移除下划线 */
+        }
+
+        h3 a:hover {
+            color: var(--accent); /* 鼠标悬停时的颜色 */
         }
         
         .hero-image {
@@ -162,7 +171,7 @@
             background-color: white;
             border-radius: var(--radius);
             padding: 1.5rem;
-            margin: 1.5rem 0;
+            margin: 1rem 0; /* 减小上下边距 */
             box-shadow: var(--shadow);
         }
         
@@ -195,13 +204,46 @@
         }
         
         .btn:hover {
-            background-color: var(--secondary);
+            background-color: #1e5631; /* 更深的绿色 */
             transform: translateY(-2px);
             text-decoration: none;
+            color: white; /* 保持文字颜色不变 */
         }
         
         .btn-secondary {
             background-color: var(--accent);
+        }
+
+        .btn-secondary:hover {
+            background-color: #c57600; /* 更深的橙色 */
+            color: white; /* 保持文字颜色不变 */
+        }
+
+        .btn-project {
+            background-color: #007bff; /* 新颜色 */
+            color: white;
+        }
+
+        .btn-project:hover {
+            background-color: #0056b3; /* 悬停时的颜色 */
+            color: white; /* 保持文字颜色不变 */
+        }
+
+        .anchor {
+            display: inline-block;
+            margin-left: 8px;
+            color: var(--text);
+            text-decoration: none;
+            visibility: hidden;
+        }
+
+        .anchor svg {
+            vertical-align: middle;
+        }
+
+        h2:hover .anchor,
+        h3:hover .anchor {
+            visibility: visible;
         }
         
         @media (max-width: 768px) {
@@ -224,6 +266,7 @@
             }
         }
     </style>
+    <link rel="icon" href="https://github.com/MiaowCham/Vibrant-Visuals-Optimization/blob/main/Main%20Pack/pack_icon.png" type="image/png">
 </head>
 <body>
     <header>
@@ -245,11 +288,26 @@
         <div class="download-buttons">
             <a href="https://github.com/MiaowCham/Vibrant-Visuals-Optimization/actions/workflows/compress-folders.yml" class="btn">下载最新构建版</a>
             <a href="https://github.com/MiaowCham/Vibrant-Visuals-Optimization/releases" class="btn btn-secondary">下载稳定发行版</a>
+            <a href="https://github.com/MiaowCham/Vibrant-Visuals-Optimization" class="btn btn-project">访问项目地址</a> <!-- 修改按钮样式 -->
         </div>
         
-        <h2>本资源包包含一个主包和多个附加包</h2>
+        <h2 id="main-pack-and-addons">
+            本资源包包含一个主包和多个附加包
+            <a class="anchor" href="#main-pack-and-addons" aria-label="Permalink: 本资源包包含一个主包和多个附加包">
+                <svg class="octicon octicon-link" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
+                    <path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path>
+                </svg>
+            </a>
+        </h2>
         
-        <h3><a href="https://github.com/MiaowCham/Vibrant-Visuals-Optimization/tree/main/Main%20Pack">主资源包 (Main Pack)</a></h3>
+        <h3 id="main-pack">
+            <a href="https://github.com/MiaowCham/Vibrant-Visuals-Optimization/tree/main/Main%20Pack">主资源包 (Main Pack)</a>
+            <a class="anchor" href="#main-pack" aria-label="Permalink: 主资源包 (Main Pack)">
+                <svg class="octicon octicon-link" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
+                    <path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path>
+                </svg>
+            </a>
+        </h3>
         <ul>
             <li>新增多点光源效果</li>
             <li>略微提高自然光亮度，改善水下/地下的可见性</li>
@@ -258,60 +316,81 @@
             <li><strong>需置于资源包加载顺序的最底层</strong></li>
         </ul>
         
-        <h3>附加包 (Addon Packs)</h3>
+        <h3 id="addon-packs">
+            附加包 (Addon Packs)
+            <a class="anchor" href="#addon-packs" aria-label="Permalink: 附加包 (Addon Packs)">
+                <svg class="octicon octicon-link" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
+                    <path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path>
+                </svg>
+            </a>
+        </h3>
         <table>
             <thead>
                 <tr>
                     <th>#</th>
-                    <th>名称</th>
-                    <th>功能说明</th>
+                    <th>名称 / 对应英文名称</th>
+                    <th>简介</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <td>1</td>
-                    <td><a href="https://github.com/MiaowCham/Vibrant-Visuals-Optimization/tree/main/16x%20Shadows%20Recover%20Pack">16x Shadows Recover Pack</a></td>
+                    <td><a href="./16x%20Shadows%20Recover%20Pack/">16x阴影恢复包<br>16x Shadows Recover Pack</a></td>
                     <td>将阴影分辨率恢复到16x<br><strong>无法与高清阴影附加包同时使用</strong></td>
                 </tr>
                 <tr>
                     <td>2</td>
-                    <td><a href="https://github.com/MiaowCham/Vibrant-Visuals-Optimization/tree/main/Clear%20Water%20Addon">Clear Water Addon</a></td>
+                    <td><a href="./Clear%20Water%20Addon/">干净水体拓展包<br>Clear Water Addon</a></td>
                     <td>启用水面波浪，同时关闭了水底焦散</td>
                 </tr>
                 <tr>
                     <td>3</td>
-                    <td><a href="https://github.com/MiaowCham/Vibrant-Visuals-Optimization/tree/main/Lighting%20Enhancement%20Addon">Lighting Enhancement Addon</a></td>
+                    <td><a href="./Lighting%20Enhancement%20Addon/">暗处增强拓展包<br>Lighting Enhancement Addon</a></td>
                     <td>大幅提升了无光源处亮度</td>
                 </tr>
                 <tr>
                     <td>4</td>
-                    <td><a href="https://github.com/MiaowCham/Vibrant-Visuals-Optimization/tree/main/Soft%20Shadows%20Addon">Soft Shadows Addon</a></td>
+                    <td><a href="./Soft%20Shadows%20Addon/">高清阴影附加包<br>Soft Shadows Addon</a></td>
                     <td>将阴影类型修改为"软阴影"<br><strong>无法与16x阴影恢复包同时使用</strong></td>
                 </tr>
                 <tr>
                     <td>5</td>
-                    <td><a href="https://github.com/MiaowCham/Vibrant-Visuals-Optimization/tree/main/Water%20Caustics%20disabled%20Pack">Water Caustics disabled Pack</a></td>
+                    <td><a href="./Water%20Caustics%20disabled%20Pack/">水底焦散关闭包<br>Water Caustics disabled Pack</a></td>
                     <td>关闭了水底焦散效果</td>
                 </tr>
                 <tr>
                     <td>6</td>
-                    <td><a href="https://github.com/MiaowCham/Vibrant-Visuals-Optimization/tree/main/Water%20Textures%20Addon">Water Textures Addon</a></td>
+                    <td><a href="./Water%20Textures%20Addon/">水面纹理拓展包<br>Water Textures Addon</a></td>
                     <td>添加了Vibrant Visuals原版水面纹理和法线PBR<br>用于补充没有水面材质的资源包<br><strong>该资源包需要置顶</strong></td>
                 </tr>
                 <tr>
                     <td>7</td>
-                    <td><a href="https://github.com/MiaowCham/Vibrant-Visuals-Optimization/tree/main/Water%20Waves%20Addon">Water Waves Addon</a></td>
+                    <td><a href="./Water%20Waves%20Addon/">水面波浪拓展包<br>Water Waves Addon</a></td>
                     <td>启用了被关闭的水面波浪<br>启用后水面纹理会变淡<br><strong>无法与水底焦散关闭包同时使用</strong></td>
                 </tr>
             </tbody>
         </table>
         
-        <h2>使用指南</h2>
+        <h2 id="usage-guide">
+            使用指南
+            <a class="anchor" href="#usage-guide" aria-label="Permalink: 使用指南">
+                <svg class="octicon octicon-link" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
+                    <path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path>
+                </svg>
+            </a>
+        </h2>
         <p>请先前往 <a href="https://github.com/MiaowCham/Vibrant-Visuals-Optimization/actions/workflows/compress-folders.yml">Actions</a> 下载构建版，或者前往 <a href="https://github.com/MiaowCham/Vibrant-Visuals-Optimization/releases">Releases</a> 下载发行版文件</p>
         <p>将下载得到的 <code>mcpack-files.zip</code> 解压，将解压得到的 <code>.mcpack</code> 文件使用 Minecraft Preview/Beta 打开即可导入</p>
         
         <div class="platform-instructions">
-            <h3>Windows</h3>
+            <h3 id="windows">
+                Windows
+                <a class="anchor" href="#windows" aria-label="Permalink: Windows">
+                    <svg class="octicon octicon-link" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
+                        <path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path>
+                    </svg>
+                </a>
+            </h3>
             <ul>
                 <li>右键 <code>.mcpack</code> 文件，选择使用 Minecraft Preview 打开</li>
                 <li>若点击 <code>选择其他应用</code>，在弹出的窗口选择 Minecraft Preview 并点击 <code>始终</code> 即可将 Minecraft Preview 作为默认打开方式</li>
@@ -320,7 +399,14 @@
         </div>
         
         <div class="platform-instructions">
-            <h3>Android</h3>
+            <h3 id="android">
+                Android
+                <a class="anchor" href="#android" aria-label="Permalink: Android">
+                    <svg class="octicon octicon-link" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
+                        <path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path>
+                    </svg>
+                </a>
+            </h3>
             <ul>
                 <li>系统自带文件管理
                     <ul>
@@ -344,20 +430,41 @@
         </div>
         
         <div class="platform-instructions">
-            <h3>Linux</h3>
+            <h3 id="linux">
+                Linux
+                <a class="anchor" href="#linux" aria-label="Permalink: Linux">
+                    <svg class="octicon octicon-link" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
+                        <path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path>
+                    </svg>
+                </a>
+            </h3>
             <ul>
-                <li>Linux Bedrock Launcher 暂不支持带有 Vibrant Visuals 的版本，具体导入方法参考Windows</li>
+                <li>Linux Bedrock Launcher 暂不支持带有 Vibrant Visuals 的版本<br>不过具体导入方法请参考Windows（换成用 Linux Bedrock Launcher 打开即可）</li>
             </ul>
         </div>
         
         <div class="platform-instructions">
-            <h3>iOS / iPadOS</h3>
+            <h3 id="ios-ipados">
+                iOS / iPadOS
+                <a class="anchor" href="#ios-ipados" aria-label="Permalink: iOS / iPadOS">
+                    <svg class="octicon octicon-link" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
+                        <path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path>
+                    </svg>
+                </a>
+            </h3>
             <ul>
-                <li>暂未提供详细教程，请自行搜索相关安装方法</li>
+                <li>煮啵太穷了买不起 Apple，自己去搜教程吧（悲</li>
             </ul>
         </div>
         
-        <h2>许可证</h2>
+        <h2 id="license">
+            许可证
+            <a class="anchor" href="#license" aria-label="Permalink: 许可证">
+                <svg class="octicon octicon-link" viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
+                    <path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path>
+                </svg>
+            </a>
+        </h2>
         <p>本项目采用 <a href="https://github.com/MiaowCham/Vibrant-Visuals-Optimization/blob/main/LICENSE">CC0-1.0 许可证</a></p>
     </div>
     
@@ -369,4 +476,3 @@
     </footer>
 </body>
 </html>
-
