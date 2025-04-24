@@ -8,6 +8,10 @@
 > [!WARNING]
 > English readme is still under construction!
 
+> [!Note]
+> 快来看我新搞的 Github Page 页面！！！<br>Come and check out my new Github Page!!!<br>
+> [点我查看 Click here](https://miaowcham.github.io/Vibrant-Visuals-Optimization/)
+
 <div align=center>
 
 English / [简体中文](./README-CN.md)
