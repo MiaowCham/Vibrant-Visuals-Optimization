@@ -5,6 +5,14 @@
 
 [English](./README.md) / 简体中文
 
+</div>
+
+> [!Note]
+> 快来看我新搞的 Github Page 页面！！！<br>
+> [点我查看](https://miaowcham.github.io/Vibrant-Visuals-Optimization/)
+
+<div align=center>
+
 为《我的世界》基岩版 灵动视效 制作的优化资源包系列，通过资源包的方式修改原版 Vibrant Visuals 阴间参数
 
 不保证一定可用/生效，资源包修改能力有限，且 Vibrant Visuals 还处于开发阶段，一切请以 Mojang 官方为准
