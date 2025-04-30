@@ -7,6 +7,9 @@ English / [简体中文](./README-CN.md)
 
 </div>
 
+[![CC0](https://img.shields.io/badge/License-CC0-blue.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+[![page](https://img.shields.io/badge/Github-Page-green.svg)](https://miaowcham.github.io/Vibrant-Visuals-Optimization/)
+
 > [!WARNING]
 > English readme is still under construction!
 
