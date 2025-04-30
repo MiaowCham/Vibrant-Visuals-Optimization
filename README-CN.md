@@ -7,6 +7,9 @@
 
 </div>
 
+[![CC0](https://img.shields.io/badge/License-CC0-blue.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+[![page](https://img.shields.io/badge/Github-Page-green.svg)](https://miaowcham.github.io/Vibrant-Visuals-Optimization/)
+
 > [!Note]
 > 快来看我新搞的 Github Page 页面！！！<br>
 > [点我查看](https://miaowcham.github.io/Vibrant-Visuals-Optimization/)
