@@ -8,7 +8,10 @@ English / [简体中文](./README-CN.md)
 </div>
 
 [![CC0](https://img.shields.io/badge/License-CC0-blue.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
-[![page](https://img.shields.io/badge/Github-Page-green.svg)](https://miaowcham.github.io/Vibrant-Visuals-Optimization/)
+[![Page](https://img.shields.io/badge/Github-Page-green.svg)](https://miaowcham.github.io/Vibrant-Visuals-Optimization/)
+[![Repository](https://img.shields.io/badge/Github-Repository-purple.svg)](https://github.com/MiaowCham/Vibrant-Visuals-Optimization)
+[![Actions](https://img.shields.io/github/actions/workflow/status/MiaowCham/Vibrant-Visuals-Optimization/.github/workflows/compress-folders.yml)](https://github.com/MiaowCham/Vibrant-Visuals-Optimization/actions/workflows/compress-folders.yml)
+[![Release](https://img.shields.io/github/v/release/MiaowCham/Vibrant-Visuals-Optimization?include_prereleases&sort=semver)](https://github.com/MiaowCham/Vibrant-Visuals-Optimization/releases)
 
 > [!WARNING]
 > English readme is still under construction!
