@@ -51,13 +51,13 @@ Enabling "Render Dragon Feature for Creaters" to Enable all features!
 
 ## How To Use?
 请先前往 [Actions](https://github.com/MiaowCham/Vibrant-Visuals-Optimization/actions/workflows/compress-folders.yml) 下载构建版，
-或者前往 [Releases](https://github.com/MiaowCham/Vibrant-Visuals-Optimization/releases) 发行版文件
-
-将下载得到的 `mcpack-files.zip` 解压，将解压得到的 `.mcpack` 文件使用 Minecraft Preview/Beta 打开即可导入<br>
+或者前往 [Releases](https://github.com/MiaowCham/Vibrant-Visuals-Optimization/releases) 发行版文件<br>
+将下载得到的 `mcpack-files.zip` 解压，将解压得到的 `.mcpack` 文件使用 Minecraft 打开即可导入
+### 1.21.80 正式版已经支持灵动视效
 - Windows
-    - 右键 `.mcpack` 文件，选择使用 Minecraft Preview 打开
-    - 若点击 `选择其他应用`，在弹出的窗口选择 Minecraft Preview 并点击 `始终` 即可将 Minecraft Preview 作为默认打开方式
-    - 请确保您使用的是 Minecraft Preview 且版本号高于 `1.21.80.25`
+    - 右键 `.mcpack` 文件，选择使用 Minecraft 打开
+    - 若点击 `选择其他应用`，在弹出的窗口选择 Minecraft 并点击 `始终` 即可将 Minecraft 作为默认打开方式
+    - 请确保您使用的是 Minecraft 且版本号高于 `1.21.80`
 - Android
     - 系统自带文件管理
       - 在文件管理中找到 `mcpack-files.zip` 并解压
@@ -70,7 +70,7 @@ Enabling "Render Dragon Feature for Creaters" to Enable all features!
       - 点击左下角 `类型` 按钮，选择 `全部` 选项
       - 在弹出的窗口选择 Minecraft
       - 长按 Minecraft 可选择设为默认打开方式
-    - 需确保您的 Minecraft 为 Beta 版且版本号高于 `1.21.80.25`
+    - 需确保您的 Minecraft 版本号高于 `1.21.80`
 - Linux
     - Linux Bedrock Launcher 暂不支持带有 Vibrant Visuals 的版本，具体导入方法参考Windows
 - iOS / iPadOS
