@@ -15,7 +15,7 @@
 
 > [!Note]
 > 快来看我新搞的 Github Page 页面！！！<br>
-> [点我查看](https://miaowcham.github.io/Vibrant-Visuals-Optimization/)
+> [点我查看](https://miaowcham.github.io/Vibrant-Visuals-Optimization-Docs/)
 
 <div align=center>
 
