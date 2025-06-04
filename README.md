@@ -19,7 +19,7 @@ English / [简体中文](./README-CN.md)
 > [!Note]
 > 快来看我新搞的 Github Page 页面！！！<br>Come and check out my new Github Page!!!<br>
 > (This Gh-Page is only available in Chinese Simplified)<br>
-> [点我查看 Click here](https://miaowcham.github.io/Vibrant-Visuals-Optimization/)
+> [点我查看 Click here](https://miaowcham.github.io/Vibrant-Visuals-Optimization-Docs/)
 
 <div align=center>
 
