@@ -13,10 +13,6 @@
 [![Actions](https://img.shields.io/github/actions/workflow/status/MiaowCham/Vibrant-Visuals-Optimization/.github/workflows/compress-folders.yml)](https://github.com/MiaowCham/Vibrant-Visuals-Optimization/actions/workflows/compress-folders.yml)
 [![Release](https://img.shields.io/github/v/release/MiaowCham/Vibrant-Visuals-Optimization?include_prereleases&sort=semver)](https://github.com/MiaowCham/Vibrant-Visuals-Optimization/releases)
 
-> [!Note]
-> 快来看我新搞的 Github Page 页面！！！<br>
-> [点我查看](https://miaowcham.github.io/Vibrant-Visuals-Optimization-Docs/)
-
 <div align=center>
 
 为《我的世界》基岩版 灵动视效 制作的优化资源包系列，通过资源包的方式修改原版 Vibrant Visuals 阴间参数
